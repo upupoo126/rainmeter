@@ -56,7 +56,7 @@ void System::Initialize(HINSTANCE instance)
 	WNDCLASS wc = {0};
 	wc.lpfnWndProc = (WNDPROC)WndProc;
 	wc.hInstance = instance;
-	wc.lpszClassName = L"RainmeterSystem";
+	wc.lpszClassName = L"UpupooRainmeterSystem";
 	ATOM className = RegisterClass(&wc);
 
 	c_Window = CreateWindowEx(
@@ -830,7 +830,7 @@ bool System::CheckDesktopState(HWND WorkerW)
 
 	if (WorkerW && IsWindowVisible(WorkerW))
 	{
-		hwnd = FindWindowEx(nullptr, WorkerW, L"RainmeterSystem", L"System");
+		hwnd = FindWindowEx(nullptr, WorkerW, L"UpupooRainmeterSystem", L"System");
 	}
 
 	bool stateChanged = (hwnd && !c_ShowDesktop) || (!hwnd && c_ShowDesktop);

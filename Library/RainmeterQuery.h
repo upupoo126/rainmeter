@@ -65,7 +65,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 #include <tchar.h>
 
-#define RAINMETER_QUERY_CLASS_NAME				TEXT("RainmeterTrayClass")
+#define RAINMETER_QUERY_CLASS_NAME				TEXT("UpupooRainmeterTrayClass")
 #define RAINMETER_QUERY_WINDOW_NAME				nullptr
 
 #define WM_QUERY_RAINMETER						WM_APP + 1000

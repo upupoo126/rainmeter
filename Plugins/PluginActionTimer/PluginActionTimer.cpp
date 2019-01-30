@@ -16,8 +16,8 @@
 #include "../API/RainmeterAPI.h"
 
 // Copied from Rainmeter.h
-#define RAINMETER_CLASS_NAME				L"DummyRainWClass"
-#define RAINMETER_WINDOW_NAME				L"Rainmeter control window"
+#define RAINMETER_CLASS_NAME				L"DummyUpupooRainWClass"
+#define RAINMETER_WINDOW_NAME				L"UpupooRainmeter control window"
 #define WM_RAINMETER_EXECUTE WM_APP + 2
 
 // Copied from Rainmeter library

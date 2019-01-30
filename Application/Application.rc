@@ -28,8 +28,8 @@ VS_VERSION_INFO VERSIONINFO
         BLOCK "040904E4"
         {
             VALUE "FileVersion", STRFILEVER
-            VALUE "LegalCopyright", "© 2017 Rainmeter Team"
-            VALUE "OriginalFilename", "Rainmeter.exe"
+            VALUE "LegalCopyright", "?2017 Rainmeter Team"
+            VALUE "OriginalFilename", "UpupooRainmeter.exe"
             VALUE "CompanyName", "Rainmeter"
             VALUE "ProductName", "Rainmeter"
             VALUE "FileDescription", "Rainmeter desktop customization tool"

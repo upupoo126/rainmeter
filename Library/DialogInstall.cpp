@@ -1030,7 +1030,7 @@ void DialogInstall::ArchivePlugin(const std::wstring& folder, const std::wstring
 void DialogInstall::LaunchRainmeter()
 {
 	// Execute Rainmeter and wait up to a minute for it process all messages
-	std::wstring rainmeterExe = g_Data.programPath + L"Rainmeter.exe";
+	std::wstring rainmeterExe = g_Data.programPath + L"UpupooRainmeter.exe";
 	std::wstring args;
 	if (!m_LoadLayout.empty())
 	{
