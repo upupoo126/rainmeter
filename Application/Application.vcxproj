@@ -4,7 +4,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D2A0903C-E760-4134-AE61-3D55BF8F760C}</ProjectGuid>
     <ConfigurationType>Application</ConfigurationType>
-    <TargetName>UpupooRainmeter</TargetName>
+    <TargetName>Rainmeter</TargetName>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -61,6 +61,12 @@ if not exist "$(OutDir)Layouts" xcopy /Q /S /Y ..\Build\Layouts "$(OutDir)Layout
       <Project>{be9d2400-7f1c-49d6-8498-5ce495491ad6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AddFolder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

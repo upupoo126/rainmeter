@@ -1,8 +1,46 @@
-#include <Windows.h>
-#include "../Library/resource.h"
-#include "../Version.h"
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
 
-LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
 
 /////////////////////////////////////////////////////////////////////////////
@@ -11,8 +49,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION FILEVER
- PRODUCTVERSION PRODUCTVER
+ FILEVERSION 4,3,0,3112
+ PRODUCTVERSION 4,3,0,3112
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -22,29 +60,26 @@ VS_VERSION_INFO VERSIONINFO
  FILEOS 0x4L
  FILETYPE 0x1L
  FILESUBTYPE 0x0L
-{
+BEGIN
     BLOCK "StringFileInfo"
-    {
-        BLOCK "040904E4"
-        {
-            VALUE "FileVersion", STRFILEVER
-            VALUE "LegalCopyright", "?2017 Rainmeter Team"
-            VALUE "OriginalFilename", "UpupooRainmeter.exe"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
             VALUE "CompanyName", "Rainmeter"
-            VALUE "ProductName", "Rainmeter"
             VALUE "FileDescription", "Rainmeter desktop customization tool"
-#ifdef _WIN64
-            VALUE "ProductVersion", STRPRODUCTVER " (64-bit)"
-#else
-            VALUE "ProductVersion", STRPRODUCTVER " (32-bit)"
-#endif //_WIN64
-        }
-    }
+            VALUE "FileVersion", "4.3.0.3112"
+            VALUE "LegalCopyright", "?2017 Rainmeter Team"
+            VALUE "OriginalFilename", "Rainmeter.exe"
+            VALUE "ProductName", "Rainmeter"
+            VALUE "ProductVersion", "4.3.0.3112 (32-bit)"
+        END
+    END
     BLOCK "VarFileInfo"
-    {
+    BEGIN
         VALUE "Translation", 0x409, 1252
-    }
-}
+    END
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -53,6 +88,22 @@ VS_VERSION_INFO VERSIONINFO
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_RAINMETER           ICON    DISCARDABLE     "Rainmeter.ico"
-//IDI_TRAY                ICON    DISCARDABLE     "Tray.ico"
-IDI_ADDFOLDER           ICON    DISCARDABLE     "AddFolder.ico"
+IDI_RAINMETER           ICON                    "Rainmeter.ico"
+
+IDI_ADDFOLDER           ICON                    "AddFolder.ico"
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

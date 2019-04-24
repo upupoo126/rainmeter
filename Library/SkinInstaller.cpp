@@ -168,7 +168,7 @@ EXTERN_C int SkinInstallerMain(LPWSTR lpCmdLine)
 		args += &lpCmdLine[11];  // Skip "/LoadTheme ".
 		args += L'"';
 
-		std::wstring file = g_Data.programPath + L"UpupooRainmeter.exe";
+		std::wstring file = g_Data.programPath + L"Rainmeter.exe";
 		SHELLEXECUTEINFO sei = {0};
 		sei.cbSize = sizeof(SHELLEXECUTEINFO);
 		sei.fMask = SEE_MASK_UNICODE;
