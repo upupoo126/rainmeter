@@ -77,14 +77,14 @@ void TrayIcon::Initialize()
 	WNDCLASS wc = {0};
 	wc.lpfnWndProc = (WNDPROC)WndProc;
 	wc.hInstance = GetRainmeter().GetModuleInstance();
-	wc.lpszClassName = L"UpupooRainmeterTrayClass";
+	wc.lpszClassName = L"ApumiaoRainmeterTrayClass";
 	wc.hIcon = GetIcon(IDI_RAINMETER);
 
 	RegisterClass(&wc);
 
 	m_Window = CreateWindowEx(
 		WS_EX_TOOLWINDOW,
-		L"UpupooRainmeterTrayClass",
+		L"ApumiaoRainmeterTrayClass",
 		nullptr,
 		WS_POPUP | WS_DISABLED,
 		CW_USEDEFAULT,

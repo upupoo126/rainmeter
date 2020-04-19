@@ -29,7 +29,7 @@ VS_VERSION_INFO VERSIONINFO
         {
             VALUE "FileVersion", STRFILEVER
             VALUE "LegalCopyright", "?2017 Rainmeter Team"
-            VALUE "OriginalFilename", "UpupooRainmeter.exe"
+            VALUE "OriginalFilename", "ApumiaoRainmeter.exe"
             VALUE "CompanyName", "Rainmeter"
             VALUE "ProductName", "Rainmeter"
             VALUE "FileDescription", "Rainmeter desktop customization tool"
