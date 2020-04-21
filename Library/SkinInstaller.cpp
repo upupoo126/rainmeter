@@ -168,7 +168,7 @@ EXTERN_C int SkinInstallerMain(LPWSTR lpCmdLine)
 		args += &lpCmdLine[11];  // Skip "/LoadTheme ".
 		args += L'"';
 
-		std::wstring file = g_Data.programPath + L"ApumiaoRainmeter.exe";
+		std::wstring file = g_Data.programPath + L"UpupooRainmeter.exe";
 		SHELLEXECUTEINFO sei = {0};
 		sei.cbSize = sizeof(SHELLEXECUTEINFO);
 		sei.fMask = SEE_MASK_UNICODE;
@@ -195,7 +195,7 @@ EXTERN_C int SkinInstallerMain(LPWSTR lpCmdLine)
 bool CloseRainmeterIfActive()
 {
 	// Close Rainmeter.exe
-	HWND hwnd = FindWindow(L"ApumiaoDummyRainWClass", L"ApumiaoRainmeter control window");
+	HWND hwnd = FindWindow(L"UpupooDummyRainWClass", L"UpupooRainmeter control window");
 	if (hwnd)
 	{
 		DWORD pID, exitCode;

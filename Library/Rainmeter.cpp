@@ -159,7 +159,7 @@ int Rainmeter::Initialize(LPCWSTR iniPath, LPCWSTR layout)
 		return 1;
 	}
 
-	m_Instance = GetModuleHandle(L"ApumiaoRainmeter");
+	m_Instance = GetModuleHandle(L"UpupooRainmeter");
 
 	WCHAR* buffer = new WCHAR[MAX_LINE_LENGTH];
 	GetModuleFileName(m_Instance, buffer, MAX_LINE_LENGTH);
@@ -535,8 +535,8 @@ bool Rainmeter::IsAlreadyRunning()
 
 			// Convert MD5 digest to mutex string (e.g. "Rainmeter0123456789abcdef0123456789abcdef")
 			const WCHAR hexChars[] = L"0123456789abcdef";
-			WCHAR mutexName[64] = L"ApumiaoRainmeter";
-			WCHAR* pos = mutexName + (_countof(L"ApumiaoRainmeter") - 1);
+			WCHAR mutexName[64] = L"UpupooRainmeter";
+			WCHAR* pos = mutexName + (_countof(L"UpupooRainmeter") - 1);
 			for (size_t i = 0; i < 16; ++i)
 			{
 				*(pos++) = hexChars[ctx.digest[i] >> 4];
@@ -793,13 +793,13 @@ void Rainmeter::CreateComponentFolders(bool defaultIniLocation)
 		}
 
 		path = m_SettingsPath;
-		path += L"ApumiaoRainmeter.exe";
+		path += L"UpupooRainmeter.exe";
 		const WCHAR* pathSz = path.c_str();
 		if (_waccess(pathSz, 0) == -1)
 		{
 			// Create a hidden stub Rainmeter.exe into SettingsPath for old addon
 			// using relative path to Rainmeter.exe
-			std::wstring from = m_Path + L"ApumiaoRainmeter.exe";
+			std::wstring from = m_Path + L"UpupooRainmeter.exe";
 			System::CopyFiles(from, path);
 
 			// Get rid of all resources from the stub executable

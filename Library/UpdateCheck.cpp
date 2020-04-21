@@ -144,7 +144,7 @@ void Updater::CheckVersion(void* pParam)
 	}
 
 	HINTERNET hRootHandle = InternetOpen(
-		L"ApumiaoRainmeter",
+		L"UpupooRainmeter",
 		INTERNET_OPEN_TYPE_PRECONFIG,
 		nullptr,
 		nullptr,
